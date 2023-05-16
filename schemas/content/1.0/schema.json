@@ -1411,16 +1411,20 @@
                 }
             }
         },
-        "testSecurityAttribute_v1": {
-          "type": "object",
-          "properties": {
-            "organisation": {
-              "type": "array",
-              "items": {
-                "type": "string"
+        "testSecurityAttribute_v2": {
+            "type": "object",
+            "properties": {
+              "version": {
+                "type": "number",
+                "default": 1
+              },
+              "organisation": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               }
             }
           }
-        }
     }
 }

@@ -1305,6 +1305,17 @@
     },
     "totalNumberOfRatings": {
       "type": "string"
+    },
+    "testSecurityAttribute_v1": {
+      "type": "object",
+      "properties": {
+        "organisation": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

@@ -1410,6 +1410,17 @@
                     "type": "object"
                 }
             }
+        },
+        "testSecurityAttribute_v1": {
+          "type": "object",
+          "properties": {
+            "organisation": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
         }
     }
 }

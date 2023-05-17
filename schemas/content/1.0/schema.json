@@ -1411,7 +1411,7 @@
                 }
             }
         },
-        "testSecurityAttribute_v2": {
+        "securityAttribute": {
             "type": "object",
             "properties": {
               "version": {

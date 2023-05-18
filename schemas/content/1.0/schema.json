@@ -1411,7 +1411,7 @@
                 }
             }
         },
-        "securityAttribute": {
+        "secureSettings": {
             "type": "object",
             "properties": {
               "version": {

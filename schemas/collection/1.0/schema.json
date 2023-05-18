@@ -1306,7 +1306,7 @@
     "totalNumberOfRatings": {
       "type": "string"
     },
-    "securityAttribute": {
+    "secureSettings": {
       "type": "object",
       "properties": {
         "version": {

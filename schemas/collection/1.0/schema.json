@@ -1320,6 +1320,21 @@
           }
         }
       }
+    },
+    "test_secureSettings": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "number",
+          "default": 1
+        },
+        "organisation": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

@@ -719,6 +719,21 @@
     "maxAssessmentRetakeAttempts": {
       "type": "number",
       "default": 5
+    },
+    "secureSettings": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "number",
+            "default": 1
+          },
+          "organisation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
     }
   },
   "additionalProperties": false

@@ -594,6 +594,21 @@
         "type": "string"
       },
       "description": "Choices which needs to be used in RHS of MTF type question"
+    },
+    "secureSettings": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "number",
+            "default": 1
+          },
+          "organisation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
     }
   },
   "additionalProperties": false

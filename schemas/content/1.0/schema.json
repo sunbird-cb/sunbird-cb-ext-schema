@@ -89,7 +89,8 @@
                 "audio/wav",
                 "application/json",
                 "application/quiz",
-                "application/survey"
+                "application/survey",
+                "application/offline"
             ]
         },
         "osId": {

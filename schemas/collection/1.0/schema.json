@@ -1327,6 +1327,21 @@
     },
     "programDuration": {
       "type": "number"
+    },
+    "test_secureSettings_v2": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "number",
+            "default": 1
+          },
+          "organisation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
     }
   }
 }

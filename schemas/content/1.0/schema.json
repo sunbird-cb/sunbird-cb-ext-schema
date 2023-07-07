@@ -89,7 +89,8 @@
                 "audio/wav",
                 "application/json",
                 "application/quiz",
-                "application/survey"
+                "application/survey",
+                "application/offline"
             ]
         },
         "osId": {
@@ -1426,20 +1427,12 @@
               }
             }
         },
-        "test_secureSettings": {
-            "type": "object",
-            "properties": {
-              "version": {
-                "type": "number",
-                "default": 1
-              },
-              "organisation": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              }
-            }
+        "maxUserInBatch": {
+            "type": "number",
+            "default": 200
+        },
+        "programDuration": {
+            "type": "number"
         }
     }
 }

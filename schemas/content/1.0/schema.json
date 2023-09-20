@@ -1433,6 +1433,13 @@
         },
         "programDuration": {
             "type": "number"
+        },
+        "wfApprovalType" : {
+            "type": "string"
+        },
+        "wfSurveyLink" : {
+            "type": "string",
+            "format": "url"
         }
     }
 }

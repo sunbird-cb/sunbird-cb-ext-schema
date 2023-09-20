@@ -1334,6 +1334,12 @@
     "wfSurveyLink" : {
         "type": "string",
         "format": "url"
-    }
+    },
+    "parentCollections": {
+      "type": "array",
+      "items": {
+          "type": "string"
+      }
+    } 
   }
 }

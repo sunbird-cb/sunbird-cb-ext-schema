@@ -1334,6 +1334,12 @@
     "wfSurveyLink" : {
         "type": "string",
         "format": "url"
+    },
+    "programDirectorName" : {
+        "type": "string"
+    },
+    "programDirectoryDesignation" : {
+        "type": "string"
     }
   }
 }

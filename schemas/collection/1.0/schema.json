@@ -1335,11 +1335,17 @@
         "type": "string",
         "format": "url"
     },
+    "programDirectorName" : {
+        "type": "string"
+    },
+    "programDirectoryDesignation" : {
+        "type": "string"
+    },
     "parentCollections": {
       "type": "array",
       "items": {
           "type": "string"
       }
-    } 
+    }
   }
 }

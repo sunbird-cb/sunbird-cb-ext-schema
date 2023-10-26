@@ -1446,6 +1446,12 @@
         },
         "programDirectoryDesignation" : {
             "type": "string"
-        }
+        },
+        "parentCollections": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }  
     }
 }

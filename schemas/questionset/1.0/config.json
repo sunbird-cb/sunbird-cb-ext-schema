@@ -53,8 +53,7 @@
     "update": [
       "children",
       "visibility",
-      "code",
-      "status",
+      "code",    
       "mimeType"
     ],
     "updateHierarchy": [

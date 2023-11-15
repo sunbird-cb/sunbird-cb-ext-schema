@@ -1346,6 +1346,12 @@
       "items": {
           "type": "string"
       }
+    },
+    "additionalTags": {
+      "type": "array",
+      "items": {
+          "type": "string"
+      }
     }
   }
 }

@@ -235,6 +235,12 @@
         },
         "depth": {
             "type": "number"
+        },
+        "recordedLinks": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }

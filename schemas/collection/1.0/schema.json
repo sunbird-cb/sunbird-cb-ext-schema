@@ -1352,6 +1352,9 @@
       "items": {
           "type": "string"
       }
+    },
+    "testRating": {
+      "type": "number"
     }
   }
 }

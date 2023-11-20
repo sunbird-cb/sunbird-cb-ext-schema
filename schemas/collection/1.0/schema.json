@@ -1353,7 +1353,25 @@
           "type": "string"
       }
     },
-    "testRating": {
+    "avgRating": {
+      "type": "number"
+    },
+    "totalNoOfRating": {
+      "type": "number"
+    },
+    "countOf1StarRating": {
+      "type": "number"
+    },
+    "countOf2StarRating": {
+      "type": "number"
+    },
+    "countOf3StarRating": {
+      "type": "number"
+    },
+    "countOf4StarRating": {
+      "type": "number"
+    },
+    "countOf5StarRating": {
       "type": "number"
     }
   }

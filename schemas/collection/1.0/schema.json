@@ -1373,6 +1373,12 @@
     },
     "countOf5StarRating": {
       "type": "number"
+    },
+    "test_competencies_v4": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   }
 }

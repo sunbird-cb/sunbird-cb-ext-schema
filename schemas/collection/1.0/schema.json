@@ -1379,6 +1379,12 @@
       "items": {
         "type": "object"
       }
+    },
+    "competencies_v4": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   }
 }

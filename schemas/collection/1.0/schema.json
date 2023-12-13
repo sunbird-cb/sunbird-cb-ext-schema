@@ -1380,7 +1380,7 @@
         "type": "object"
       }
     },
-    "competencies_v4": {
+    "competencies_v5": {
       "type": "array",
       "items": {
         "type": "object"

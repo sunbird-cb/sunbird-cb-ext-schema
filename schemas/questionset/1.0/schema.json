@@ -734,7 +734,12 @@
             }
           },
           "isVerifiedKarmayogi": {
-            "type": "string"
+            "type": "string",
+            "default": "Yes",
+            "enum": [
+                "Yes",
+                "No"
+            ]
           }
         }
     }

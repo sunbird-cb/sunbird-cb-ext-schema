@@ -1424,6 +1424,9 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "isVerifiedKarmayogi": {
+                "type": "string"
               }
             }
         },

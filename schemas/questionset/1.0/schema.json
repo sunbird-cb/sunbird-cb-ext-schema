@@ -742,6 +742,19 @@
             ]
           }
         }
+    },
+    "courseCategory": {
+      "type": "string",
+      "enum": [
+        "Course",
+        "Moderated Course",
+        "Invite-Only Program",
+        "Moderated Program",
+        "Blended Program",
+        "Curated Program",
+        "Standalone Assessment",
+        "Moderated Assessment"
+      ]
     }
   },
   "additionalProperties": false

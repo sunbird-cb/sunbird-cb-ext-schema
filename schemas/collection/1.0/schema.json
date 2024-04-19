@@ -1404,7 +1404,8 @@
         "Blended Program",
         "Curated Program",
         "Standalone Assessment",
-        "Moderated Assessment"
+        "Moderated Assessment",
+        "Invite-Only Assessment"
       ]
     }
   }

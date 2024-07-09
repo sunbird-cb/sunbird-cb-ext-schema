@@ -66,6 +66,9 @@
     },
     "value": {
       "dataType": "string"
+    },
+     "displayName": {
+      "dataType": "string"
     }
   }
 }
